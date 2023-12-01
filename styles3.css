@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    /* margin: auto; */
+    }
+
+html {
+    background-color: black;
+}
+
+.main {
+    width: 800px;
+    height: 1000px;
+    position: absolute;
+    align-content: center;
+}
+
+    #save {
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+      }
+
+      h1 {
+        padding-top: 800px;
+        font-size: 40px;
+        padding-left: 10%; 
+        z-index: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 0;
+        color: #fffefe4f;
+        position: relative;
+    }
+    h2 {
+        padding-top: 100px;
+        font-size: 40px;
+        padding-left: 10%; 
+        z-index: 1;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fffefe4f;
+        position: absolute;
+    }
+h3 {
+    padding-top: 900px;
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe4f;
+}
+
+h4{
+    padding-top: 200px;
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe4f;
+}
+
+h5 {
+    padding-top: 600px;
+    padding-right: 100px;
+    font-size: 40px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe4f;
+    text-align: right;
+}
+
+h6 {
+    padding-top: 700px;
+    padding-bottom: 800px;
+    padding-right: 50px;
+    font-size: 40px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe4f;
+    text-align: center;
+}
+
+h7 {
+    padding-left: 50%;
+    padding-right: 100px;
+}
+
+.goback {
+    position: absolute;
+    padding-bottom: 20px;
+    padding-left: 45%;
+    height: 70%;
+    width: 95%;
+    font-size: 45px;
+    z-index: 1;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fffefe65;
+    text-decoration: none;
+ }
+ 
+ a:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }

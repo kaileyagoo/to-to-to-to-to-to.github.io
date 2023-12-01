@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: auto;
+    }
+
+html {
+    background-color: #ffffff;
+}
+
+/* .main {
+    width: 800px;
+    height: 1000px;
+    position: absolute;
+    align-content: center;
+}    */
+
+    #pure {
+        position: fixed;
+        z-index: -1;
+      }
+
+      .video-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      }
+      .video-container video {
+       
+        min-width: 100%; 
+        min-height: 100%; 
+      
+        /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+        width: auto;
+        height: auto;
+      
+        /* Center the video */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+
+
+
+h1 {
+    padding-top: 100px;
+    font-size: 40px;
+    padding-left: 10%; 
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 0;
+    color: #fffefe4f;
+}
+
+h2 {
+    padding-top: 1500px;
+    font-size: 40px;
+    padding-left: 50%; 
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 0;
+    color: #fffefe4f;
+}
+
+h3 {
+    padding-top: 1500px;
+    padding-bottom: 400px;
+    font-size: 40px;
+    padding-left: 20%; 
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 0;
+    color: #fffefe4f;
+}
+
+h4 {
+    padding-top: 1500px;
+    padding-bottom: 400px;
+    font-size: 40px;
+    padding-left: 20%; 
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 0;
+    color: #fffefe4f;
+}
+
+h5 {
+    padding-top: 1300px;
+    padding-bottom: 400px;
+    font-size: 40px;
+    padding-left: 20%; 
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 0;
+    color: #fffefe4f;
+}
+
+
+
+h6 {
+    padding-top: 1000px;
+    padding-bottom: 400px;
+    font-size: 40px;
+    padding-left: 50%; 
+    z-index: 1;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    /* bottom: 0; */
+    color: #f7f0f0d8;
+    text-decoration: none;
+}
+.mix {
+    text-decoration: none;
+    position: absolute;
+}
+
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  
+

@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    }
+
+/* .main {
+    width: 800px;
+    height: 1000px;
+    position: absolute;
+    align-content: center;
+}
+     */
+     #air {
+        position: fixed;
+        z-index: -1;
+        overflow: hidden;
+      }
+
+      .video-container {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%; 
+        overflow: hidden;
+      }
+      .video-container video {
+        /* Make video to at least 100% wide and tall */
+        min-width: 100%; 
+        min-height: 100%; 
+      
+        /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+        width: auto;
+        height: auto;
+      
+        /* Center the video */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+ 
+.content {
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    color: #fffefe4f;
+    height: 70%;
+    width: 100%;
+    padding: 30px;
+  }
+
+h1 {
+    padding-top: 4px;
+    font-size: 40px;
+    padding-left: 10%; 
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    color: #fffefe4f;
+    position: fixed;
+}
+
+.fixed-element {
+    transition: opacity 0.8s;
+}
+
+h2 {
+    align-content: center;
+    padding-left: 70%;
+    font-size: 40px;
+    position: relative;
+    white-space: nowrap
+}
+
+h3 {
+    top: 1000px;
+    padding-left: 64%;
+    font-size: 40px;
+    position: absolute;
+    white-space: nowrap
+}
+
+h4 {
+    position: relative;
+    top: 900px;
+    text-align: right;
+    font-size: 40px;
+    height: 70%;
+    width: 95%;
+    white-space: nowrap
+}
+
+h5 {
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+    color: #fffefe4f;
+    height: 70%;
+    width: 95%;
+    padding-top: 2000px;
+    padding-left: 35%;
+}
+
+.goback {
+    position: absolute;
+    padding-bottom: 20px;
+    padding-left: 45%;
+    height: 70%;
+    width: 95%;
+    font-size: 45px;
+    z-index: 1;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fffefe65;
+    text-decoration: none;
+ }
+ 
+ a:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+ h6 {
+    top: 1900px;
+    height: 70%;
+    width: 95%;
+    padding-left: 78%;
+    font-size: 40px;
+    position: absolute;
+    white-space: nowrap
+ }
+  
+ 

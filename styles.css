@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: auto;
+    }
+
+.main {
+    width: 800px;
+    height: 1000px;
+    position: absolute;
+    align-content: center;
+}
+
+h1,h2,h3,h4 {
+    color: darkblue;
+    font-size: 100px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+a:visited {
+  color:  rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+    padding-left: 50px;
+    white-space: nowrap
+}
+
+.element1, .element2, .element3, .element4 {
+    /* animation: pulse 1s infinite; */
+    position: absolute;
+    left: 100px;
+  }
+ 
+
+  @keyframes pulse {
+    25% {
+      color: rgb(5, 5, 211);
+    }
+    50%{
+      opacity: 40%;
+    }
+    100% {
+      color: darkblue;
+    }
+  }
+
+.element1 {
+  top: 100px;
+  animation: pulse 1s infinite;
+  position: absolute;
+  /* left: 100px; */
+  @keyframes pulse {
+    80% {
+      color: rgb(5, 5, 211);
+    }
+    80%{
+      opacity: 8%;
+    }
+    100% {
+      color: darkblue;
+    }
+  }
+}
+
+
+.element2 {
+  top: 200px;
+  animation: pulse 600ms infinite;
+  position: absolute;
+  /* left: 100px; */
+  @keyframes pulse {
+    25% {
+      color: rgb(5, 5, 211);
+    }
+    50%{
+      opacity: 50%;
+    }
+    100% {
+      color: darkblue;
+    }
+  }
+}
+
+.element3 {
+  top: 300px;
+  animation: pulse 500ms infinite;
+  position: absolute;
+  /* left: 100px; */
+  @keyframes pulse {
+    25% {
+      color: rgb(5, 5, 211);
+    }
+    50%{
+      opacity: 50%;
+    }
+    100% {
+      color: darkblue;
+    }
+  }
+}
+
+.element4 {
+  top: 400px;
+  animation: pulse 1s infinite;
+  position: absolute;
+  /* left: 100px; */
+  @keyframes pulse {
+    25% {
+      color: rgb(5, 5, 211);
+    }
+    50%{
+      opacity: 50%;
+    }
+    100% {
+      color: darkblue;
+    }
+  }
+}
+
+
+  
+
+
